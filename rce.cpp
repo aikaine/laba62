@@ -2,13 +2,13 @@
 int countWordInFile(const string& fileName, const string& word) {
     ifstream file(fileName);
     if (!file.is_open()) {
-        cout << "Îøèáêà ôàéëà." << endl;
+        cout << "ÐžÑˆÐ¸Ð±ÐºÐ° Ñ„Ð°Ð¹Ð»Ð°." << endl;
         return 0;
     }
     
 
     if (file.peek() == ifstream::traits_type::eof()) {
-        cout << "Ïóñòîé ôàéë" << endl;
+        cout << "ÐžÑˆÐ¸Ð±ÐºÐ° Ñ„Ð°Ð¹Ð»Ð°" << endl;
     }
      
 
